@@ -21,7 +21,6 @@ app = Nominatim(user_agent='tutorial')#고유명칭으로 주소를 가져온다
         
 
 
-st.table(mountain[mountain['산이름'].str.contains(name_)])#표를 시각화 한다
         
         
         
