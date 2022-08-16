@@ -24,7 +24,7 @@ app = Nominatim(user_agent='tutorial')#고유명칭으로 주소를 가져온다
         
         
         
-location = app.geocode(name_)#고유명칭으로 주소를 가져온다
+location = app.geocode()#고유명칭으로 주소를 가져온다
 a=(location[1][0])#위도
             
 b=(location[1][1])#경도
