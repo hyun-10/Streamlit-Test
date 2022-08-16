@@ -1,4 +1,4 @@
-pip install --upgrade pip
+pip install --upgrade
 streamlit
 pandas
 folium_static
