@@ -23,12 +23,7 @@ app = Nominatim(user_agent='tutorial')#고유명칭으로 주소를 가져온다
 
         
         
-        
-location = app.geocode()#고유명칭으로 주소를 가져온다
-a=(location[1][0])#위도
-            
-b=(location[1][1])#경도
-            
+
 folium.Marker([a, b],tooltip=name_).add_to(m)#사이드바에서 클릭한 산을 마커 표시
 folium_static(m)#지도표시
         
