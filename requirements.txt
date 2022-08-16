@@ -1,11 +1,6 @@
 streamlit
-numpy
 pandas
-streamlit-folium
 folium
-
-
 geopy
-
 Nominatim
 
