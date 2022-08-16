@@ -22,11 +22,6 @@ app = Nominatim(user_agent='tutorial')#고유명칭으로 주소를 가져온다
 
 
         
-        
-
-folium.Marker([a, b],tooltip=name_).add_to(m)#사이드바에서 클릭한 산을 마커 표시
-folium_static(m)#지도표시
-        
 
 
 
