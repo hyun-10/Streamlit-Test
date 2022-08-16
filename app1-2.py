@@ -8,12 +8,10 @@ from geopy.geocoders import Nominatim
 
 st.title('mountain')
 
-mountain = pd.read_excel('mountain.xlsx')
 
-        
-mountain['산이름'] = mountain['산이름'].str.replace(r"\(.*\)","")
+
  
-name = mountain['산이름']
+
         
 
 m = folium.Map(location=[36.736429,127.801687], zoom_start=7)#기본지도
