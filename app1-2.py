@@ -8,7 +8,7 @@ from geopy.geocoders import Nominatim
 
 st.title('mountain')
 
-mountain = pd.read_excel('mountain.xlsx', skiprows=[0,1])
+mountain = pd.read_excel('mountain.xlsx')
 
         
 mountain['산이름'] = mountain['산이름'].str.replace(r"\(.*\)","")
