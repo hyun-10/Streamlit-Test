@@ -19,7 +19,7 @@ m.add_child(folium.LatLngPopup())#클릭시 위도경도 표시
 app = Nominatim(user_agent='tutorial')#고유명칭으로 주소를 가져온다
         
         
-name_ = st.sidebar.selectbox('선택하세요',name)
+
 
 st.table(mountain[mountain['산이름'].str.contains(name_)])#표를 시각화 한다
         
