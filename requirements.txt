@@ -6,6 +6,6 @@ folium
 
 
 geopy
-geocoders
+
 Nominatim
 
