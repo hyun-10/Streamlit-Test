@@ -49,7 +49,7 @@ class mas():
 appp=mas()
 
 
-appp.()
+appp.run()
 
 
 
