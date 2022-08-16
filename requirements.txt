@@ -1,4 +1,4 @@
---upgrade
+
 streamlit
 pandas
 folium_static
