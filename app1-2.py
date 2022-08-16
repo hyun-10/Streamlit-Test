@@ -49,7 +49,7 @@ class mas():
 appp=mas()
 
 
-map_=appp.run()
+appp()
 
 
 
