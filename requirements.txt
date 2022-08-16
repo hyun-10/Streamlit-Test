@@ -5,7 +5,7 @@ streamlit-folium
 folium
 
 
-geopy.geocoders
+geopy
+geocoders
 Nominatim
-pandas.core.frame
-DataFrame
+
