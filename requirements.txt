@@ -3,7 +3,7 @@ numpy
 pandas
 streamlit-folium
 folium
-re
+
 os
 geopy.geocoders
 Nominatim
