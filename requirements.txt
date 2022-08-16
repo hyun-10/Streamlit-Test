@@ -1,7 +1,7 @@
 
 streamlit
 pandas
-
+folium-static
 folium
 geopy
 Nominatim
